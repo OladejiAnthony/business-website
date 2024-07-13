@@ -166,6 +166,11 @@ const Header = () => {
               </NavLink>
             </li>
             <li>
+              <NavLink to="/about" className={activeLink}>
+                About Us
+              </NavLink>
+            </li>
+            <li>
               <NavLink to="/contact" className={activeLink}>
                 Contact Us
               </NavLink>
@@ -208,7 +213,7 @@ const Header = () => {
           <HiOutlineMenuAlt3 size={28} onClick={toggleMenu} />
         </div>
       </div>
-      
+
     </header>
   );
 };

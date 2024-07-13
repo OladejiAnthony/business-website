@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 //Pages
-import { Home, Contact, Login, Register, Reset, Admin } from "./pages/index";
+import { Home, Contact, Login, Register, Reset, Admin, About } from "./pages/index";
 //Components
 import { Header, Footer, ProductDetails } from "./components/index";
 import { ToastContainer } from "react-toastify";
@@ -17,6 +17,7 @@ const App = () => {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
