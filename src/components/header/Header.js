@@ -208,6 +208,7 @@ const Header = () => {
           <HiOutlineMenuAlt3 size={28} onClick={toggleMenu} />
         </div>
       </div>
+      
     </header>
   );
 };
